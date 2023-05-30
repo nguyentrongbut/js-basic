@@ -1,0 +1,6 @@
+// Số nguyên 1 2 3 999 
+// Số thập phân 3.4 4.5
+console.log(5 + 7);
+// string console màu đen, number màu xanh
+const number = "5";
+const n
