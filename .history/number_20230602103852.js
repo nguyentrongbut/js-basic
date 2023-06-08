@@ -20,10 +20,7 @@ console.log(Math.ceil(Math.random() * 10)); // trả về số ngẫu nhiên t�
 console.log(`Max: ${Math.max(1,2,3)}`); // 3
 console.log(`Min: ${Math.min(1,2,3)}`); // 1
 console.log(Math.max()); // -Infinity
-console.log(Math.min()); //Infinity
-console.log(Math.pow(3, 2)); //3^2
-console.log(isNaN("1234")); //true
-
+console.log(Math.min()); //-Infinity
 
 
 

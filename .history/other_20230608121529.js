@@ -1,0 +1,1 @@
+undefined -> khai baos

@@ -17,13 +17,6 @@ console.log(Math.round(number2));//5
 console.log(Math.round(number2));//5
 console.log(parseFloat((1 / 3).toFixed(2)));//0.33
 console.log(Math.ceil(Math.random() * 10)); // trả về số ngẫu nhiên từ 1 - 9
-console.log(`Max: ${Math.max(1,2,3)}`); // 3
-console.log(`Min: ${Math.min(1,2,3)}`); // 1
-console.log(Math.max()); // -Infinity
-console.log(Math.min()); //Infinity
-console.log(Math.pow(3, 2)); //3^2
-console.log(isNaN("1234")); //true
-
-
+console.log('Max' );//0.33
 
 

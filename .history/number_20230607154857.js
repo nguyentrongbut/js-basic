@@ -22,7 +22,7 @@ console.log(`Min: ${Math.min(1,2,3)}`); // 1
 console.log(Math.max()); // -Infinity
 console.log(Math.min()); //Infinity
 console.log(Math.pow(3, 2)); //3^2
-console.log(isNaN("1234")); //true
+console.log(Math.pow(3, 2)); //3^2
 
 
 
