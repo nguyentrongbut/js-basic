@@ -30,12 +30,10 @@ if (isRich) {
 // // }
 // // console.log(message);
 // alert(message);
-const firstNumber = prompt("Enter your first number:", "");
-const secondNumber = prompt("Enter your second number:", "");
-let biggestNumber = "the second number is the largest number";
+const firstNumber = prompt("Enter your number one:", "");
+const secondNumber = prompt("Enter your number two:", "");
+let biggestNumber = `${firstNumber} is the largest number`;
 if (Number(firstNumber) > Number(secondNumber)) {
-    biggestNumber = "The first number is the largest number";
-} else if (Number(firstNumber) == Number(secondNumber)) {
-    biggestNumber = "No number is greater than any number";
-}
+    biggestNumber = `${secondNumber} is the largest number`;
+} else if(Number(firstNumber) == Number(secondNumber))
 alert(biggestNumber);
