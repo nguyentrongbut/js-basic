@@ -63,17 +63,13 @@ console.log(!amIWrong); // true
 // T || T -> T
 
 // == (loose equality) vs === (strict equality) 
-//== (so sánh kiểu giá trị)
-console.log("==");
+console.log("== vs ===")
 console.log(5 == "5"); // true "5" = "5"
 console.log(true == 1); // number(true) = 1 -> 1 == 1 -> true
 console.log(1 == "01"); // number(01) = 1 -> 1 == 1 -> true
 console.log(null == ""); // "null" !== "" -> false
-console.log("===")
 console.log(10 === "10"); //false
-console.log(10 !== "10"); //true
-console.log(true == "true"); //false
-// nên sử dụng === (so sánh cả kiểu giá trị và kiểu dữ liệu)
+
 
 
 

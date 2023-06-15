@@ -73,7 +73,7 @@ console.log("===")
 console.log(10 === "10"); //false
 console.log(10 !== "10"); //true
 console.log(true == "true"); //false
-// nên sử dụng === (so sánh cả kiểu giá trị và kiểu dữ liệu)
+// nên sử dụng === (so sánh cả giá trị và kiểu dữ liệu)
 
 
 

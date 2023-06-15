@@ -39,41 +39,10 @@ console.log("" - 1); //-1
 console.log(false - true); //-1
 console.log(false + true); //1
 console.log(null + 10); //10
+// toán tử so sánh 
 
-// toán tử so sánh > < >= <=
-console.log(5 > 7); //false
-console.log(50 > 7); //true
-console.log(6 >= 6); //true
-console.log(6 <= 6); //true
 
-// toán tử logic cơ bản && || !
-console.log(5 > 7 && 8 > 3); // false
-console.log(5 > 7 || 8 > 3); // true
-const amIWrong = false;
-console.log(!amIWrong); // true
-// #Boolean &&
-// F && T -> F
-// T && F -> F
-// F && F -> F
-// T && T -> T
-// #Boolean ||
-// F || T -> T
-// T || F -> T
-// F || F -> F
-// T || T -> T
 
-// == (loose equality) vs === (strict equality) 
-//== (so sánh kiểu giá trị)
-console.log("==");
-console.log(5 == "5"); // true "5" = "5"
-console.log(true == 1); // number(true) = 1 -> 1 == 1 -> true
-console.log(1 == "01"); // number(01) = 1 -> 1 == 1 -> true
-console.log(null == ""); // "null" !== "" -> false
-console.log("===")
-console.log(10 === "10"); //false
-console.log(10 !== "10"); //true
-console.log(true == "true"); //false
-// nên sử dụng === (so sánh cả kiểu giá trị và kiểu dữ liệu)
 
 
 
