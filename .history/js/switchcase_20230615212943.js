@@ -12,9 +12,8 @@ switch (fruit) {
         break;
 }
 // nếu không có break tất cả câu lệnh sẽ chạy (nhảy)
-
 //Ternary operator
-const yourAge = 15;
+const yourAge = ;
 let message = yourAge >= 18 ? "U are adult" : "U are still a child";
 console.log(message);
 let message2 = 
@@ -23,4 +22,3 @@ let message2 =
         : yourAge <= 10 
         ? "U are still a child" 
         : "U are a young boy";
-console.log(message2);
