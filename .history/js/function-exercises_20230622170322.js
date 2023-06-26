@@ -1,0 +1,1 @@
+//viết fn so sánh 2 số a b 
