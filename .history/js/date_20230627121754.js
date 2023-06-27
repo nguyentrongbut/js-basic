@@ -43,7 +43,7 @@ console.log(birthday.getHours()); // 0
 // in ra phút 
 console.log(birthday.getMinutes()); // 0
 // in ra giây
-console.log(birthday.getSeconds());
+
 // in ra mili giây
 console.log(birthday.getMilliseconds()); // 0
 // in ra timestamp
@@ -58,14 +58,3 @@ birthday.setHours(23);
 birthday.setMinutes(23);
 birthday.setSeconds(23);
 console.log(`My birthday after update: ${birthday}`);
-console.log(birthday.setTime(1069952400000));
-
-// UTC
-console.log(`UTC: ${birthday.getUTCFullYear()}`); 
-console.log(birthday.getUTCMonth()); 
-console.log(birthday.getUTCDate()); 
-console.log(birthday.getUTCDay()); 
-console.log(birthday.getUTCHours()); 
-console.log(birthday.getUTCMinutes()); 
-console.log(birthday.getUTCSeconds());
-console.log(birthday.getUTCMilliseconds());  

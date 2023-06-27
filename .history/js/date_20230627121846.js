@@ -58,14 +58,4 @@ birthday.setHours(23);
 birthday.setMinutes(23);
 birthday.setSeconds(23);
 console.log(`My birthday after update: ${birthday}`);
-console.log(birthday.setTime(1069952400000));
-
-// UTC
-console.log(`UTC: ${birthday.getUTCFullYear()}`); 
-console.log(birthday.getUTCMonth()); 
-console.log(birthday.getUTCDate()); 
-console.log(birthday.getUTCDay()); 
-console.log(birthday.getUTCHours()); 
-console.log(birthday.getUTCMinutes()); 
-console.log(birthday.getUTCSeconds());
-console.log(birthday.getUTCMilliseconds());  
+console.log(birthday.setTime())

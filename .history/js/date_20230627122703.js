@@ -61,7 +61,7 @@ console.log(`My birthday after update: ${birthday}`);
 console.log(birthday.setTime(1069952400000));
 
 // UTC
-console.log(`UTC: ${birthday.getUTCFullYear()}`); 
+console.log(`${birthday.getUTCFullYear()`); 
 console.log(birthday.getUTCMonth()); 
 console.log(birthday.getUTCDate()); 
 console.log(birthday.getUTCDay()); 

@@ -61,11 +61,15 @@ console.log(`My birthday after update: ${birthday}`);
 console.log(birthday.setTime(1069952400000));
 
 // UTC
-console.log(`UTC: ${birthday.getUTCFullYear()}`); 
-console.log(birthday.getUTCMonth()); 
-console.log(birthday.getUTCDate()); 
-console.log(birthday.getUTCDay()); 
-console.log(birthday.getUTCHours()); 
-console.log(birthday.getUTCMinutes()); 
-console.log(birthday.getUTCSeconds());
-console.log(birthday.getUTCMilliseconds());  
+console.log(birthday.getFullYear()); // 2003
+console.log(birthday.getMonth()); // 10
+console.log(birthday.getDate()); // 28
+console.log(birthday.getDay()); // 5 -> thứ 6
+console.log(birthday.getHours()); // 0
+console.log(birthday.getMinutes()); // 0
+// in ra giây
+console.log(birthday.getSeconds());
+// in ra mili giây
+console.log(birthday.getMilliseconds()); // 0
+// in ra timestamp
+console.log(birthday.getTime()); // 1069952400000
