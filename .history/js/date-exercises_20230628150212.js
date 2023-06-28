@@ -33,54 +33,12 @@
 function timeSince(date) {
     const now = new Date();
     const yourDate = new Date(date);
-    const seconds = Math.floor((now.getTime() - yourDate.getTime()) / 1000); // in ra số giây chia cho 1000 vì getTime là mili seconds
+    const seconds = Math.floor((now.getTime() - yourDate.getTime()) / 1000); // in ra số giây
     console.log(seconds);
-    if (seconds < 0) {
-        alert("Your time is invalid");
-        return;
-    }
-    let timer = seconds / 31536000;
-    console.log(timer);
-    if (timer > 1) {
-        console.log(`${Math.floor(timer)} last year`);
-        return;
-    }
-    timer = seconds / 2678400;
-    if (timer > 1) {
-        console.log(`${Math.floor(timer)} last month`);
-        return;
-    }
-    timer = seconds / 604800;
-    if (timer > 1) {
-        console.log(`${Math.floor(timer)} last week`);
-        return;
-    }
-    timer = seconds / 86400;
-    if (timer > 1) {
-        console.log(`${Math.floor(timer)} last day`);
-        return;
-    }
-    timer = seconds / 3600;
-    if (timer > 1) {
-        console.log(`${Math.floor(timer)} last hours`);
-        return;
-    }
-    timer = seconds / 60;
-    if (timer > 1) {
-        console.log(`${Math.floor(timer)} last minutes`);
-        return;
-    }
-    timer = seconds 
-    if (timer > 1) {
-        console.log(`${Math.floor(timer)} seconds ago`);
-    }   
-    return;
+    let timer = 
 }
 // 1 năm = 365 ngày * 24 giờ * 60 phút * 60 giây = 31536000 giây
-// 1 tháng = 31 ngày * 24 giờ * 60 phút * 60 giây = 2678400 giây
-// 1 tuần = 7 ngày * 24 giờ * 60 phút * 60 giây = 604800 giây
-// 1 ngày = 1 ngày * 24 giờ * 60 phút * 60 giây = 86400 giây
-// 1 giờ = 1 giờ * 60 phút * 60 giây = 3600 giây
-// 1 phút = 60 giây
+// 1 tháng = 31 ngày * 24 giờ * 60 phút * 60 giây = 31536000 giây
+// 1 tháng = 31  * 24  * 60  * 60 giây = 31536000 giây
 
-timeSince("Wed Jun 28 2023 15:39:00 GMT+0700 (Indochina Time)");
+timeSince("Wed Jun 28 2023 14:00:00 GMT+0700 (Indochina Time)");

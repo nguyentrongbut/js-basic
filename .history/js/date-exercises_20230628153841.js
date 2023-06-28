@@ -35,10 +35,7 @@ function timeSince(date) {
     const yourDate = new Date(date);
     const seconds = Math.floor((now.getTime() - yourDate.getTime()) / 1000); // in ra số giây chia cho 1000 vì getTime là mili seconds
     console.log(seconds);
-    if (seconds < 0) {
-        alert("Your time is invalid");
-        return;
-    }
+    if (seconds < 0) 
     let timer = seconds / 31536000;
     console.log(timer);
     if (timer > 1) {
@@ -83,4 +80,4 @@ function timeSince(date) {
 // 1 giờ = 1 giờ * 60 phút * 60 giây = 3600 giây
 // 1 phút = 60 giây
 
-timeSince("Wed Jun 28 2023 15:39:00 GMT+0700 (Indochina Time)");
+timeSince("Wed Jun 28 2023 13:20:00 GMT+0700 (Indochina Time)");

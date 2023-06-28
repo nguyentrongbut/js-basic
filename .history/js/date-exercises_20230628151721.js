@@ -33,12 +33,8 @@
 function timeSince(date) {
     const now = new Date();
     const yourDate = new Date(date);
-    const seconds = Math.floor((now.getTime() - yourDate.getTime()) / 1000); // in ra số giây chia cho 1000 vì getTime là mili seconds
+    const seconds = Math.floor((now.getTime() - yourDate.getTime()) / 1000); // in ra số giây
     console.log(seconds);
-    if (seconds < 0) {
-        alert("Your time is invalid");
-        return;
-    }
     let timer = seconds / 31536000;
     console.log(timer);
     if (timer > 1) {
@@ -74,7 +70,6 @@ function timeSince(date) {
     if (timer > 1) {
         console.log(`${Math.floor(timer)} seconds ago`);
     }   
-    return;
 }
 // 1 năm = 365 ngày * 24 giờ * 60 phút * 60 giây = 31536000 giây
 // 1 tháng = 31 ngày * 24 giờ * 60 phút * 60 giây = 2678400 giây
@@ -83,4 +78,4 @@ function timeSince(date) {
 // 1 giờ = 1 giờ * 60 phút * 60 giây = 3600 giây
 // 1 phút = 60 giây
 
-timeSince("Wed Jun 28 2023 15:39:00 GMT+0700 (Indochina Time)");
+timeSince("Wed Jun 28 2023 14:00:00 GMT+0700 (Indochina Time)");

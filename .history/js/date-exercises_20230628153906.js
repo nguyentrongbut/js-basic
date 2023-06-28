@@ -83,4 +83,4 @@ function timeSince(date) {
 // 1 giờ = 1 giờ * 60 phút * 60 giây = 3600 giây
 // 1 phút = 60 giây
 
-timeSince("Wed Jun 28 2023 15:39:00 GMT+0700 (Indochina Time)");
+timeSince("Wed Jun 28 2023 13:20:00 GMT+0700 (Indochina Time)");
