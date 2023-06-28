@@ -90,8 +90,6 @@ console.log(`${myDate}/${prefixMonth}${myMonth}/${myYear}`);
 //     alert("Call me after 3 seconds")
 // }, 3000);
 
-const timer = setInterval(function() {
-    console.log("call me");
-}, 1000);
-clearInterval(timer);
-//khi dùng setInterval sẽ chạy hoài -> hao tốn tài nguyên sử dụng clear để khắc phục nên gán vào
+setInterval(function() {
+    console.log("call me")
+});

@@ -93,5 +93,5 @@ console.log(`${myDate}/${prefixMonth}${myMonth}/${myYear}`);
 const timer = setInterval(function() {
     console.log("call me");
 }, 1000);
-clearInterval(timer);
+Cle
 //khi dùng setInterval sẽ chạy hoài -> hao tốn tài nguyên sử dụng clear để khắc phục nên gán vào

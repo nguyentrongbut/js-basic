@@ -79,19 +79,6 @@ console.log(now.toLocaleDateString("vi-VI"));
 console.log(now.toISOString("vi-VI")); // 2023-06-28T05:14:00.408Z
 
 const myTime = new Date("Tue Jun 27 2023 09:34:18 GMT+0700 (Indochina Time)");
-const myYear = myTime.getFullYear(); // 2023
-const myMonth = myTime.getMonth() + 1; // 6
-const myDate = myTime.getDate(); // 27
-const prefixMonth = myMonth < 10 ? "0" : "";
-console.log(`${myDate}/${prefixMonth}${myMonth}/${myYear}`);
+const myYear = myTime.getFullYear(); 2023
+const myMonth = myMonth.getMonth() + 1;
 
-// settimeout vs setInterval
-// setTimeout(function () {
-//     alert("Call me after 3 seconds")
-// }, 3000);
-
-const timer = setInterval(function() {
-    console.log("call me");
-}, 1000);
-clearInterval(timer);
-//khi dùng setInterval sẽ chạy hoài -> hao tốn tài nguyên sử dụng clear để khắc phục nên gán vào

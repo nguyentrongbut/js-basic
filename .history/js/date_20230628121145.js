@@ -70,28 +70,6 @@ console.log(birthday.getUTCMinutes());
 console.log(birthday.getUTCSeconds());
 console.log(birthday.getUTCMilliseconds());  
 
-// date string
-console.log(now.toDateString()); // Wed Jun 28 2023 
-console.log(now.toTimeString()); // 12:11:50 GMT+0700 (Indochina Time)
-console.log(now.toLocaleDateString()); // m/dd/yyyy -> 6/28/2023
-//28.6.2023
-console.log(now.toLocaleDateString("vi-VI")); 
-console.log(now.toISOString("vi-VI")); // 2023-06-28T05:14:00.408Z
-
-const myTime = new Date("Tue Jun 27 2023 09:34:18 GMT+0700 (Indochina Time)");
-const myYear = myTime.getFullYear(); // 2023
-const myMonth = myTime.getMonth() + 1; // 6
-const myDate = myTime.getDate(); // 27
-const prefixMonth = myMonth < 10 ? "0" : "";
-console.log(`${myDate}/${prefixMonth}${myMonth}/${myYear}`);
-
-// settimeout vs setInterval
-// setTimeout(function () {
-//     alert("Call me after 3 seconds")
-// }, 3000);
-
-const timer = setInterval(function() {
-    console.log("call me");
-}, 1000);
-clearInterval(timer);
-//khi dùng setInterval sẽ chạy hoài -> hao tốn tài nguyên sử dụng clear để khắc phục nên gán vào
+//
+console.log(now.toDateString()); //Wed Jun 28 2023
+console.log(now.toTimeString());
