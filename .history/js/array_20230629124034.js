@@ -70,5 +70,5 @@ console.log(students1);
 
 // shift -> xóa phần tử đầu tiên trong mảng
 console.log("array.shift():");
-console.log(students1.shift());
+console.log(students1.pop());
 console.log(students1);

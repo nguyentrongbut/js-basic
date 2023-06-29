@@ -58,17 +58,7 @@ console.log("array.push():");
 console.log(students1.push("charon"));
 console.log(students1);
 
-// unshift -> thêm phần tử vào đầu mảng
-console.log("array.unshift():");
-console.log(students1.unshift("frontend"));
-console.log(students1);
-
-// pop -> xóa phần tử cuối cùng trong mảng
-console.log("array.pop():");
-console.log(students1.pop());
-console.log(students1);
-
-// shift -> xóa phần tử đầu tiên trong mảng
-console.log("array.shift():");
-console.log(students1.shift());
+// push -> thêm phần tử vào cuối mảng
+console.log("array.push():");
+console.log(students1.push("charon"));
 console.log(students1);

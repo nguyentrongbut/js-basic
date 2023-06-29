@@ -33,42 +33,6 @@ console.log(`array.length: ${students1.length}`);
 
 // reverse() -> đảo ngược giá trị trong mảng
 console.log("array.reverse:");
-console.log(students1.reverse());
+console.log(students1)
 
 // join -> nối các phần tử trong mảng thành string
-console.log("array.join:");
-console.log(students1.join());
-console.log(students1.join(" "));
-
-// includes -> kiểm tra mảng đó có chứa phần tử nào đó không
-console.log("array.includes:");
-console.log(students1.includes("cloly")); // true
-console.log(students1.includes("abc")); // false
-
-// indexOf -> trả về vị trí của phần tử tìm thấy đầu tiên
-console.log("array.indexOf():");
-console.log(students1.indexOf("cloly"));
-
-// lastIndexOf -> trả về vị trí của phần tử tìm thấy cuối cùng
-console.log("array.lastIndexOf():");
-console.log(students1.lastIndexOf("cloly"));
-
-// push -> thêm phần tử vào cuối mảng
-console.log("array.push():");
-console.log(students1.push("charon"));
-console.log(students1);
-
-// unshift -> thêm phần tử vào đầu mảng
-console.log("array.unshift():");
-console.log(students1.unshift("frontend"));
-console.log(students1);
-
-// pop -> xóa phần tử cuối cùng trong mảng
-console.log("array.pop():");
-console.log(students1.pop());
-console.log(students1);
-
-// shift -> xóa phần tử đầu tiên trong mảng
-console.log("array.shift():");
-console.log(students1.shift());
-console.log(students1);

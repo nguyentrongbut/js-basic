@@ -64,11 +64,6 @@ console.log(students1.unshift("frontend"));
 console.log(students1);
 
 // pop -> xóa phần tử cuối cùng trong mảng
-console.log("array.pop():");
-console.log(students1.pop());
-console.log(students1);
-
-// shift -> xóa phần tử đầu tiên trong mảng
-console.log("array.shift():");
-console.log(students1.shift());
+console.log("array.unshift():");
+console.log(students1.unshift("frontend"));
 console.log(students1);
