@@ -1,0 +1,1 @@
+// 1. Cho 1 mảng gồm nhiều 
