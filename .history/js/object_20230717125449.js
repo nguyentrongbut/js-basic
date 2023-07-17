@@ -7,7 +7,6 @@ const student = {
     name: "Cloly",
     age: 21,
     male: true,
-    "last-name": "but",
     hi: function() {
         console.log("Hello Cloly");
     },
@@ -18,18 +17,4 @@ const student = {
 // 1. Dot notation .
 console.log(student.name);
 // 2. Bracket notation ["key"]
-console.log(student["age"]);
-console.log(student["last-name"]);
-// Thay đổi giá trị của object
-student.age = 20;
-student.male = "male";
-// Thêm 
-student.isDeveloper = true;
-// is-developer
-student["is-developer"] = false;
-student.hello = function() {
-    console.log("hello");
-}
-console.log(student);
-// Cách xóa giá trị trong Object
-delete student["last-name"];
+console.log(stu)

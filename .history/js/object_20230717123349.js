@@ -1,0 +1,1 @@
+// Cách khai báo object

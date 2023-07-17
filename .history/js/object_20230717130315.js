@@ -28,7 +28,7 @@ student.isDeveloper = true;
 // is-developer
 student["is-developer"] = false;
 student.hello = function() {
-    console.log("hello");
+    console.log("hello")
 }
 console.log(student);
 // Cách xóa giá trị trong Object
