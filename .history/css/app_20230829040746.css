@@ -503,7 +503,6 @@ img {
     background: #3d6ef7;
     position: fixed;
     pointer-events: none;
-    transition: all 0.25s linear;
 }
 .menu {
     display: flex;
@@ -515,6 +514,3 @@ img {
     margin-left: 100px;
 }
 
-.menu-item a {
-    color: #333;
-}

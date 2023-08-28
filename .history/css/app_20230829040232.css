@@ -171,7 +171,7 @@ body {
     transition: transform  0.25s linear;
 } */
 
-/* .menu.is-show {
+.menu.is-show {
     transform: translate(0);
 }
 
@@ -180,7 +180,7 @@ body {
     padding: 20px 15px;
     color: #333;
     border-bottom: 1px solid #eee;
-} */
+}
 .header {
     padding: 20px;
     display: flex;
@@ -502,19 +502,5 @@ img {
     height: 2px;
     background: #3d6ef7;
     position: fixed;
-    pointer-events: none;
-    transition: all 0.25s linear;
-}
-.menu {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    list-style: none;
-}
-.menu-item {
-    margin-left: 100px;
-}
-
-.menu-item a {
-    color: #333;
+    
 }

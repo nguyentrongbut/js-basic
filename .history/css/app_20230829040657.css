@@ -503,18 +503,12 @@ img {
     background: #3d6ef7;
     position: fixed;
     pointer-events: none;
-    transition: all 0.25s linear;
 }
 .menu {
     display: flex;
-    justify-content: center;
-    margin-top: 100px;
+    transform: translate(50%, 50%);
     list-style: none;
 }
 .menu-item {
-    margin-left: 100px;
-}
-
-.menu-item a {
-    color: #333;
+    m
 }
