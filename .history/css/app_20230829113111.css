@@ -3,14 +3,11 @@ a {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 1;
 }
-img {
-    display: block;
-    max-width: 100%;
-}
+
 
 /* modal
 .modal {
@@ -150,16 +147,14 @@ img {
     font-size: 100px;
     margin: 0 100px;
 }
-.counter-descrease,
-.counter-increase {
+.counter-descrease, .counter-increase {
     background-color: #3d6ef7;
     color: white;
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
-.counter-descrease i,
-.counter-increase i {
+.counter-descrease i, .counter-increase i {
     font-size: 50px;
 }
 
@@ -230,14 +225,14 @@ img {
     white-space: nowrap;
     font-weight: 500;
     flex: 1;
-}
+}   
 .tab-item:not(:first-child) {
     margin-left: 1.5rem;
 }
 .tab-content {
     display: none;
 }
-.tab-content.active {
+.tab-content.active{
     display: block;
 }
 .tab-item.active {
@@ -318,14 +313,14 @@ img {
     flex-direction: column;
     padding: 20px;
     cursor: zoom-out;
-}
-.modal-overlay {
+  }
+  .modal-overlay {
     position: absolute;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.2);
     cursor: pointer;
-}
-.modal-content {
+  }
+  .modal-content {
     min-height: 350px;
     background-color: white;
     width: 100%;
@@ -334,8 +329,8 @@ img {
     position: relative;
     padding: 30px;
     cursor: auto;
-}
-.modal-close {
+  }
+  .modal-close {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,10 +343,10 @@ img {
     border-radius: 10rem;
     color: white;
     background-color: #6a5af9;
-}
-.modal-main {
+  }
+  .modal-main {
     overscroll-behavior-y: contain;
-}
+  }
 
 /* light box */
 .content {
@@ -379,7 +374,7 @@ img {
     right: 0;
     bottom: 0;
     z-index: 999999;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0,0,0,0.25);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -411,7 +406,7 @@ img {
 
 /* dropdown */
 .dropdown {
-    --primary: #de4b3e;
+    --primary : #de4b3e;
     --secondary: #c74237;
     width: 100%;
     max-width: 400px;
@@ -450,8 +445,7 @@ img {
     background-color: transparent;
     transform: translateY(-100%);
 }
-.dropdown__select,
-.dropdown__item {
+.dropdown__select, .dropdown__item {
     width: 100%;
     padding: 2rem;
     background-color: red;
@@ -471,6 +465,7 @@ img {
     pointer-events: none;
 }
 .dropdown__item:first-child::before {
+
 }
 /* tooltip */
 .text {
@@ -523,32 +518,4 @@ img {
 .menu-item a {
     color: #333;
 }
-.image-wrapper {
-    height: 600px;
-    width: 900px;
-    position: relative;
-    overflow: hidden;
-    margin: 50px auto;
-    border-radius: 20px;
-}
-.image {
-    object-fit: contain;
-    max-height: 100%;
-    cursor: zoom-in;
-    max-width: unset;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: auto;
-    transform: translate(-50%, -50%);
-}
-.image-cover {
-    cursor: zoom-in;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
+.image-wrapper 
