@@ -619,13 +619,6 @@ img {
     font-size: 16px;
     line-height: 1;
     border: 1px solid #eee;
-    border-radius: 8px;
+    background-origin: 8px;r
     color: #333;
-}
-.dropdown-item {
-    margin-top: 20px;
-    font-weight: 300;
-}
-.primary {
-    color: #2979ff;
 }
