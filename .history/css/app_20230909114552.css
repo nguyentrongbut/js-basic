@@ -817,7 +817,7 @@ body {
     align-items: center;
     transform: translateX(150%);
     transition: transform .25s linear;
-    animation: sweet 2s linear 1;
+    animation: sweet 1s linear 1;
 }
 .swwet-icon {
     width: 40px;
@@ -836,8 +836,8 @@ body {
     line-height: 1.4;
 }
 @keyframes sweet {
-    20%,
-    100% {
+    50%,
+     {
         transform: translateX(0);
     }
 }

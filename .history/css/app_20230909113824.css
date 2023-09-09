@@ -806,38 +806,5 @@ body {
     align-items: center;
 }
 .sweet-alert {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    max-width: 450px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    display: inline-flex;
-    align-items: center;
-    transform: translateX(150%);
-    transition: transform .25s linear;
-    animation: sweet 2s linear 1;
-}
-.swwet-icon {
-    width: 40px;
-    height: 40px;
-    background-color: #07a787;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    margin-right: 20px;
-    flex-shrink: 0;
-}
-.sweet-text {
-    font-weight: 300;
-    line-height: 1.4;
-}
-@keyframes sweet {
-    20%,
-    100% {
-        transform: translateX(0);
-    }
+    p
 }
