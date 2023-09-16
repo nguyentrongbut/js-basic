@@ -2,7 +2,8 @@ a {
     text-decoration: none;
 }
 
-input, button {
+input,
+button {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     line-height: 1;
@@ -783,11 +784,11 @@ body {
     padding: 15px 0;
 }
 .todo-text {
-    flex:1;
+    flex: 1;
     font-weight: 300;
     color: #333;
     display: inline-block;
-    white-space:nowrap;
+    white-space: nowrap;
     max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -816,7 +817,7 @@ body {
     display: inline-flex;
     align-items: center;
     transform: translateX(150%);
-    transition: transform .25s linear;
+    transition: transform 0.25s linear;
     animation: sweet 2s linear 1;
 }
 .swwet-icon {
@@ -840,4 +841,210 @@ body {
     100% {
         transform: translateX(0);
     }
+}
+
+/* email */
+/* .input {
+    background-color: #fff;
+    border: 0;
+    border-radius: 50px;
+    padding: 15px 25px;
+    padding-right: 50px;
+    color: #333;
+    display: block;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+}
+.input.valid + .input-icons .fa-check,
+.input.invalid + .input-icons .fa-times {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+.input-wrapper {
+    position: relative;
+    width: 300px;
+    margin: 25px auto;
+}
+.input-icons {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-icons i {
+    position: absolute;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+    transition: all 0.2s ease;
+}
+.fa-check {
+    background-color: #20e3b2;
+}
+.fa-times {
+    background-color: #fc5776;
+} */
+
+/* pass */
+
+.input {
+    background-color: white;
+    border: 0;
+    border-radius: 50px;
+    padding: 15px 25px;
+    padding-right: 50px;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+}
+.input.invalid + .input-icons .fa-times,
+.input.valid + .input-icons .fa-check {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+.input-wrapper {
+    position: relative;
+    width: 300px;
+    margin: 25px auto;
+}
+.input-icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-icons i {
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+    transition: all 0.2s ease;
+    position: absolute;
+}
+.fa-check {
+    background-color: #20e3b2;
+}
+.fa-times {
+    background-color: #fc5776;
+}
+.check-list {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #999;
+}
+.check-item {
+    margin-bottom: 15px;
+}
+.check-item.active {
+    color: #20e3b2;
+}
+.check-item.unactive {
+    color: #f00;
+}
+.check-item i {
+    font-size: 12px;
+    color: inherit;
+    margin-right: 10px;
+}
+.slider {
+    max-width: 1000px;
+    margin: 25px auto;
+    position: relative;
+}
+.slider-next,
+.slider-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 10;
+}
+.slider-next {
+    right: -25px;
+}
+.slider-prev {
+    left: -25px;
+}
+.slider-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    z-index: 10;
+}
+.slider-dots li {
+    margin: 0 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100rem;
+    background-color: #999;
+    cursor: pointer;
+    transition: background-color 0.25s linear;
+}
+.slider-dots li.active {
+    background-color: white;
+}
+.slider-wrapper {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.slider-main {
+    display: flex;
+    position: relative;
+    transition: transform 0.25s linear;
+    height: 100%;
+}
+.slider-item {
+    height: 100%;
+    width: 100%;
+    flex: 1 0 100%;
+    user-select: none;
+}
+.slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
