@@ -14,23 +14,35 @@ window.addEventListener("load", function () {
     prevBtn.addEventListener("click", function () {
         handleChangeSlide(-1);
     });
+    [...dotItems].forEach((item) =>
+        item.addEventListener("click", function (e) {
+            [...dotItems].forEach((el) => el.classList.remove("active"));
+            e.target.classList.add("active");
+            const slideIndex = parseInt(e.target.dataset.index);
+            index = slideIndex;
+            positionX = -1 * index * sliderItemWidth;
+            sliderMain.style = `transform: translateX(${positionX}px)`;
+        })
+    );
     function handleChangeSlide(direction) {
         if (direction === 1) {
-            index++;
-            if (index >= slidersLength) {
-                index = slidersLength;
+            if (index >= slidersLength - 1) {
+                index = slidersLength - 1;
                 return;
-            };
+            }
             positionX = positionX - sliderItemWidth;
             sliderMain.style = `transform: translateX(${positionX}px)`;
+            index++;
         } else if (direction === -1) {
-            index--;
-            if (index <=0 ) {
+            if (index <= 0) {
                 index = 0;
                 return;
-            };
+            }
             positionX = positionX + sliderItemWidth;
             sliderMain.style = `transform: translateX(${positionX}px)`;
+            index--;
         }
+        [...dotItems].forEach((el) => el.classList.remove("active"));
+        dotItems[index].classList.add("active");
     }
 });
